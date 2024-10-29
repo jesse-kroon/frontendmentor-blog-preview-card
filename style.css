@@ -1,0 +1,106 @@
+/* figtree-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/figtree-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/figtree-v6-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-900italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Figtree';
+  font-style: italic;
+  font-weight: 900;
+  src: url('/fonts/figtree-v6-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray-950: hsl(0, 0%, 7%);
+    --color-gray-500: hsl(0, 0%, 42%);
+}
+
+body { 
+    margin: 0;
+    background-color: var(--color-yellow);
+    font-family: 'Figtree';
+}
+
+main {
+    background-color: var(--color-white);
+    margin: 150px auto;
+    width: 384px;
+    height: 522px;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px black;
+}
+
+section p h1 {
+    font-weight: 900;
+}
+
+#article-illustration {
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+#category {
+    background-color: var(--color-yellow);
+    padding: 4px 12px;
+    border-radius: 4px;
+    height: 29px;
+    width: 82px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#category p {
+    margin: 0;
+    font-weight: 900;
+}
+
+#author{ 
+    display: flex;
+    align-content: center;
+}
+
+#author img {
+    margin: 0px 10px 0px 0px;
+}
+
+#author p {
+    align-self: center;
+    margin: 0;
+    font-weight: 900;
+}
+
+#published {
+    font-weight: 500;
+}
+
+#content {
+    font-weight: 500;
+    color: var(--color-gray-500);
+    font-size: 16px;
+}
+
+main h1:hover {
+    color: var(--color-yellow);
+}
