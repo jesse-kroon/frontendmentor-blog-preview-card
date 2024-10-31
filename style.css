@@ -39,8 +39,7 @@ body {
 
 main {
     background-color: var(--color-white);
-    max-width: 384px;
-    max-height: 522px;
+    width: 336px;
     padding: 24px;
     border-radius: 20px;
     border: 1px solid black;
@@ -48,14 +47,10 @@ main {
     box-shadow: 10px 10px 0px black;
 }
 
-
-section {
-    width: 90%;
-}
-
 section h1 {
     font-size: 24px;
     font-weight: 800;
+    margin: 0;
 }
 
 section p {
@@ -72,7 +67,7 @@ section p {
 
 #category {
     background-color: var(--color-yellow);
-    padding: 4px 12px;
+    font-size: 14px;
     border-radius: 4px;
     height: 29px;
     width: 82px;
